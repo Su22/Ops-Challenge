@@ -13,6 +13,17 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 function history {
 	echo "$(last)"
 }
@@ -21,13 +32,13 @@ function history {
 
 #!/bin/bash
 
-# Script: Ops 201 Class 03 Ops Challenge Solution
-# Author: sujan thapa magar
-# Date of latest revision: 27 July 2022
-# Purpose: Show login history
-function history {
-	echo "$(last)"
-}
+* Script: Ops 201 Class 03 Ops Challenge Solution
+* Author: sujan thapa magar
+ * Date of latest revision: 27 July 2022
+ * Purpose: Show login history
+* function history {
+* 	echo "$(last)"
+* }
 
-#this calls history
-history
+* #this calls history
+* history
