@@ -9,3 +9,25 @@
 
 
 ![image](https://user-images.githubusercontent.com/16893161/181378884-4d315241-de4b-43a3-be02-6ff4ae541d14.png)
+
+
+
+
+function history {
+	echo "$(last)"
+}
+
+
+
+#!/bin/bash
+
+# Script: Ops 201 Class 03 Ops Challenge Solution
+# Author: sujan thapa magar
+# Date of latest revision: 27 July 2022
+# Purpose: Show login history
+function history {
+	echo "$(last)"
+}
+
+#this calls history
+history
